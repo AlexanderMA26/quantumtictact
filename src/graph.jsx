@@ -17,6 +17,12 @@ class Graph {
             this.AdjList.set(v, []);
         }
     }
+   //chat 
+   printGraph() {
+        for (let [vertex, edges] of this.AdjList) {
+            console.log(`${vertex} -> ${edges.join(', ')}`);
+        }
+    }
 
 // add edge to the graph
 addEdge(v, w)
@@ -33,4 +39,4 @@ addEdge(v, w)
 }
 
 
-export default printGraph();
+export default Graph();
