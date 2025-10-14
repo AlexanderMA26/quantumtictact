@@ -1,3 +1,6 @@
+import Graph from './graph';
+
+const g = new Graph;
 
 function createGraph(g){
 
