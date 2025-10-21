@@ -2,6 +2,7 @@
 class Graph {
     // defining vertex array and
     // adjacent list
+
     constructor() {
         this.noOfVertices = 9;
         this.AdjList = new Map();
@@ -20,7 +21,7 @@ class Graph {
    //chat 
    printGraph() {
         for (let [vertex, edges] of this.AdjList) {
-            console.log(`${vertex} -> ${edges.join(', ')}`);
+            let graphDesc = (`${vertex} -> ${edges.join(', ')}`);
         }
     }
 
@@ -39,4 +40,4 @@ addEdge(v, w)
 }
 
 
-export default Graph();
+export default Graph;
