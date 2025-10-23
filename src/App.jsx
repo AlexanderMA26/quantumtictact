@@ -1,10 +1,10 @@
-import createGraph from './play';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 function App(){
     return (
     <Router>
-      {/Adding the link to different qimporuiz categories./}
       <div className="App">
         <header><h1>Quiz Game</h1></header>
         <title>Choose your quiz category</title>
